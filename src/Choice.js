@@ -1,11 +1,8 @@
-//rockets or dragons
 import React from "react";
 import Rockets from "./Rockets";
 import Dragons from "./Dragons";
 import { Text } from "@mrshmllw/smores-react";
 
-// component is called Choice
-// props
 function Choice() {
   const [choice, setChoice] = React.useState("");
 

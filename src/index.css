@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito");
 
+#root * {
+  text-align: center;
+}
+
 body {
   display: flex;
   justify-content: center;
@@ -8,10 +12,6 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
-#root * {
-  text-align: center;
 }
 
 .container {

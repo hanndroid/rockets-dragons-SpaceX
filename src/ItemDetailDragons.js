@@ -3,7 +3,6 @@ import { Text, Card } from "@mrshmllw/smores-react";
 import Modal from "react-modal";
 
 Modal.setAppElement("#root");
-// props
 function ItemDetailDragons({ obj }) {
   const [modalIsOpen, setModalIsOpen] = useState(false);
   return (
