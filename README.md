@@ -1,4 +1,4 @@
-Greetings human 👽
+Greetings 👽
 
 Demo: https://serene-chandrasekhar-8f4a17.netlify.app 
 
