@@ -16,11 +16,19 @@ function ItemDetailRockets({ obj }) {
         <Modal
           isOpen={modalIsOpen}
           onRequestClose={() => setModalIsOpen(false)}
+          style={{
+            overlay: {
+              backgroundColor: "rgba(12, 12, 12, 0.529)",
+            },
+            content: {
+              backgroundColor: "rgb(238, 238, 238)",
+              fontFamily: "Nunito",
+            },
+          }}
         >
-          <p>
-            Country: {obj.country} First Flight: {obj.first_flight}
-            Success Rate: {obj.success_rate_pct}
-          </p>
+          <p class="more-info">Country: {obj.country} </p>{" "}
+          <p class="more-info">First Flight: {obj.first_flight} </p>
+          <p class="more-info">Success Rate: {obj.success_rate_pct}</p>
           <div>
             <button onClick={() => setModalIsOpen(false)}>Close</button>
           </div>

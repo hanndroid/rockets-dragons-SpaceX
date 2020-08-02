@@ -11,7 +11,7 @@ function Choice() {
 
   return (
     <>
-      <div className="container">
+      <div>
         <Text tag="h1" typo="header" color="pink5">
           Our Spacecrafts
         </Text>
