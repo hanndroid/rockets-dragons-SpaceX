@@ -16,7 +16,6 @@ function Choice() {
           <button
             onClick={() => {
               setChoice("DRAGONS");
-              console.log("DRAGONS");
             }}
           >
             <Text color="blue5">Dragons</Text>
@@ -24,7 +23,6 @@ function Choice() {
           <button
             onClick={() => {
               setChoice("ROCKETS");
-              console.log("ROCKETS");
             }}
           >
             <Text color="blue5">Rockets</Text>
@@ -39,9 +37,7 @@ function Choice() {
       <div className="marshmallow-link">
         <Text color="pink5">
           Want to insure your spacecraft? Get a quote now at{" "}
-          <a class href="https://www.marshmallow.com/">
-            Marshmallow
-          </a>
+          <a href="https://www.marshmallow.com/">Marshmallow</a>
         </Text>
       </div>
     </>

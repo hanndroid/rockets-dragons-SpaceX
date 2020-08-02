@@ -20,7 +20,7 @@ function Rockets({ selected }) {
         rockets[0] &&
         rockets.map((rocket) => {
           return (
-            <div>
+            <div key={rocket.rocket_name}>
               <ItemDetailRockets obj={rocket} />
             </div>
           );

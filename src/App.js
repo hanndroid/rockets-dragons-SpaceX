@@ -1,13 +1,9 @@
 import React, { Component } from "react";
-import Choice from "./Choice";
+import Choice from "./components/Choice";
 
 class App extends Component {
   render() {
-    return (
-      <>
-        <Choice />
-      </>
-    );
+    return <Choice />;
   }
 }
 

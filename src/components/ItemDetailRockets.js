@@ -30,13 +30,13 @@ function ItemDetailRockets({ obj }) {
             },
           }}
         >
-          <p class="more-info">First Flight: {obj.first_flight} </p>
-          <p class="more-info">Height(m): {obj.height.meters}</p>
-          <p class="more-info">Boosters: {obj.boosters}</p>
-          <p class="more-info">Country: {obj.country} </p>{" "}
-          <p class="more-info">Cost per Launch: {obj.cost_per_launch}</p>
-          <p class="more-info">Company: {obj.company}</p>
-          <p class="more-info">Success Rate: {obj.success_rate_pct}</p>
+          <p className="more-info">First Flight: {obj.first_flight} </p>
+          <p className="more-info">Height(m): {obj.height.meters}</p>
+          <p className="more-info">Boosters: {obj.boosters}</p>
+          <p className="more-info">Country: {obj.country} </p>{" "}
+          <p className="more-info">Cost per Launch: {obj.cost_per_launch}</p>
+          <p className="more-info">Company: {obj.company}</p>
+          <p className="more-info">Success Rate: {obj.success_rate_pct}</p>
           <div>
             <button onClick={() => setModalIsOpen(false)}>Close</button>
           </div>

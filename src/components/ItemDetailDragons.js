@@ -32,13 +32,17 @@ function ItemDetailDragons({ obj }) {
             },
           }}
         >
-          <p class="more-info">Active: {obj.active ? "Active" : "Inactive"}</p>
-          <p class="more-info">First Flight: {obj.first_flight}</p>
-          <p class="more-info">Weight(kg): {obj.dry_mass_kg}</p>
-          <p class="more-info">Weight(lbs): {obj.dry_mass_lb}</p>
-          <p class="more-info">Crew Capacity: {obj.crew_capacity}</p>
-          <p class="more-info">Orbit Duration Year: {obj.orbit_duration_yr}</p>
-          <p class="more-info">Material: {obj.heat_shield.material}</p>
+          <p className="more-info">
+            Active: {obj.active ? "Active" : "Inactive"}
+          </p>
+          <p className="more-info">First Flight: {obj.first_flight}</p>
+          <p className="more-info">Weight(kg): {obj.dry_mass_kg}</p>
+          <p className="more-info">Weight(lbs): {obj.dry_mass_lb}</p>
+          <p className="more-info">Crew Capacity: {obj.crew_capacity}</p>
+          <p className="more-info">
+            Orbit Duration Year: {obj.orbit_duration_yr}
+          </p>
+          <p className="more-info">Material: {obj.heat_shield.material}</p>
 
           <div>
             <button onClick={() => setModalIsOpen(false)}>Close</button>

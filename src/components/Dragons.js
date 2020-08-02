@@ -20,7 +20,7 @@ function Dragons({ selected }) {
         dragons[0] &&
         dragons.map((dragon) => {
           return (
-            <div>
+            <div key={dragon.name}>
               <ItemDetailDragons obj={dragon} />
             </div>
           );
