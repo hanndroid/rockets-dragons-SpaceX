@@ -10,7 +10,7 @@ function Choice() {
     <>
       <div>
         <Text tag="h1" typo="header" color="pink5">
-          SpaceX Rockets and Dragons
+          SpaceX Dragons and Rockets
         </Text>
         <div>
           <button
